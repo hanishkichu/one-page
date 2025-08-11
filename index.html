@@ -3,57 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One-Page Wonder</title>
+    <title>3D Flip Card</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="navbar">
-        <div class="navbar-container">
-            <a href="#home" class="logo">Logo</a>
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-front">
+                <img src="https://via.placeholder.com/300x200" alt="Placeholder Image">
+                <h3>Frontend Developer</h3>
+                <p>Hover to learn more</p>
+            </div>
+            <div class="card-back">
+                <h3>About Me</h3>
+                <p>I'm a passionate developer with a love for creating beautiful and functional web experiences.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
         </div>
-    </header>
-
-    <main>
-        <section id="home">
-            <h1>Welcome to Our Studio</h1>
-            <p>Your journey to excellence starts here.</p>
-        </section>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are a team of passionate creators.</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>We offer a wide range of creative solutions.</p>
-        </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <p>Check out our latest work.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us today!</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 One-Page Wonder. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
